@@ -102,7 +102,7 @@ const plugins = [
     resolve: `medusa-fulfillment-shippo`,
     options: {
       api_key: process.env.SHIPPO_API_KEY,
-      weight_unit_type: 'lb',
+      weight_unit_type: 'g',
       dimension_unit_type: 'in',
       webhook_secret: '',
       webhook_test_mode: false
